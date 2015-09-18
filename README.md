@@ -14,8 +14,6 @@ With this control, you can make a selectable view with auto-width easily.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 YCStateButton is available through [CocoaPods](http://cocoapods.org). To install
