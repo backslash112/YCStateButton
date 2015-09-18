@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/YCStateButton.svg?style=flat)](http://cocoapods.org/pods/YCStateButton)
 [![Platform](https://img.shields.io/cocoapods/p/YCStateButton.svg?style=flat)](http://cocoapods.org/pods/YCStateButton)
 
+<img src="https://cloud.githubusercontent.com/assets/5343215/9953043/a2ef1dba-5e0f-11e5-9908-66c7f1fac779.png" alt="Screenshot" width=280 />
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -23,11 +25,10 @@ pod "YCStateButton"
 ## Usage
 (see sample Xcode project in /Example)
 
-- Add two images to the Images.xcassets file and slicing them horizontally.
+1. Add two images to the Images.xcassets file and slicing them horizontally.
 
-<img src="https://cloud.githubusercontent.com/assets/5343215/9952859/3d14f53e-5e0d-11e5-8f20-c6c91255b81d.png" alt="Screenshot" width=300 />
-
-- Use it.
+<img src="https://cloud.githubusercontent.com/assets/5343215/9952859/3d14f53e-5e0d-11e5-8f20-c6c91255b81d.png" alt="Screenshot" width=300 /></br>
+2.  Use it.
 ```Swift
 let stateButton = YCStateButton(frame: CGRectMake(30, 30, 0, 0))
 stateButton.selectedStateBackgroundImage = UIImage(named: "tag_selected_bg")!
