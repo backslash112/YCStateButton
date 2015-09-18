@@ -23,11 +23,11 @@ pod "YCStateButton"
 ## Usage
 (see sample Xcode project in /Example)
 
-1. Add two images to the Images.xcassets file and slicing them horizontally.
+- Add two images to the Images.xcassets file and slicing them horizontally.
 
 <img src="https://cloud.githubusercontent.com/assets/5343215/9952859/3d14f53e-5e0d-11e5-8f20-c6c91255b81d.png" alt="Screenshot" width=300 />
 
-2. Use it.
+- Use it.
 ```Swift
 let stateButton = YCStateButton(frame: CGRectMake(30, 30, 0, 0))
 stateButton.selectedStateBackgroundImage = UIImage(named: "tag_selected_bg")!
