@@ -22,7 +22,7 @@ pod "YCStateButton"
 
 ## Author
 
-backslash112, yangcun@live.com
+Yang Cun, yangcun@live.com
 
 ## License
 

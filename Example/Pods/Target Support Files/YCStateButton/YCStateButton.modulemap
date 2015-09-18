@@ -1,0 +1,6 @@
+framework module YCStateButton {
+  umbrella header "YCStateButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

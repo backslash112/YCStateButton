@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D15368D52DE96512E8E62344BF73258 /* YCStateButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DD7555A5148D3AA5FB50B4E106432E /* YCStateButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D3DDFB3DAE414635E2159A73A856E0D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E851B093B809B08B59928D64F308DE3 /* ReplaceMe.swift */; };
+		21DFD5CA2171F973C96F1F7C5EFDF427 /* Pods-YCStateButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F04207A8244C39EED27D74E9260C7F /* Pods-YCStateButton_Example-dummy.m */; };
+		7A3A798BE73A78E284C780BFF6AA7B6B /* Pods-YCStateButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2075295FA191870D13722FB62E345FE /* Pods-YCStateButton_Tests-dummy.m */; };
+		830630CA31CE40CD85AEFF639CCCC693 /* YCStateButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6681E2F5BDA279A846AD97D8687DC5 /* YCStateButton-dummy.m */; };
+		B63BF349EB413DAFC0526E1B8AC90E7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377132D3498BCF8A86665DAA7448251B /* Foundation.framework */; };
+		B9303B080CE008F4892819DC9100FCFB /* Pods-YCStateButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F99BB0EFCB00D271AC0138DF189DEF2 /* Pods-YCStateButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF0842EC8AA6B9B671F47145DE87B975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377132D3498BCF8A86665DAA7448251B /* Foundation.framework */; };
+		C750CB065AED687F6ED62996F8B558AB /* YCStateButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 175BAB17FD30D063193CFC200FF12EA9 /* YCStateButton.bundle */; };
+		DEE4A535F095A3599CC1732A4DBD73BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377132D3498BCF8A86665DAA7448251B /* Foundation.framework */; };
+		E8C8418F066A294FBDAE31F717366C7F /* Pods-YCStateButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA554AA84321ABC75092539D9A06309F /* Pods-YCStateButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		758DAA80212AC3999D1BDF1C0407A1A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21DDE64E9385B4F82C2B65ACD7534152;
+			remoteInfo = "YCStateButton-YCStateButton";
+		};
+		D59630D201F537789DEFF5757CE981DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3960A35A3D49B7DB96F192980ECB25EE;
+			remoteInfo = YCStateButton;
+		};
+		F10FEAA561D354A42B1D548E53D3E2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3960A35A3D49B7DB96F192980ECB25EE;
+			remoteInfo = YCStateButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04724D3E87FB4743657C42FD0B45F209 /* Pods-YCStateButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YCStateButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		07C9D0F51A4CE835BE2E4200E27ABA1F /* Pods-YCStateButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCStateButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0E851B093B809B08B59928D64F308DE3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		175BAB17FD30D063193CFC200FF12EA9 /* YCStateButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCStateButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		18F9532408C9EFEF1F1B7C1C1A75302F /* Pods-YCStateButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCStateButton_Example-resources.sh"; sourceTree = "<group>"; };
+		1F6681E2F5BDA279A846AD97D8687DC5 /* YCStateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YCStateButton-dummy.m"; sourceTree = "<group>"; };
+		2B7220F3824981635D9D04A395BFE00F /* Pods-YCStateButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCStateButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		333613AF2DEDB18E04A2846D198537D9 /* Pods-YCStateButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCStateButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		377132D3498BCF8A86665DAA7448251B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		393D831E8CBA2410545AB992D597055E /* Pods-YCStateButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YCStateButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		480A1C7ACAEA46A91368E79847C9AE24 /* YCStateButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YCStateButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C302F4FFF67B9D355171330010AE639 /* YCStateButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YCStateButton.modulemap; sourceTree = "<group>"; };
+		5D200F5B7525314830DB5FFCF53390E2 /* Pods-YCStateButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCStateButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C324A15E2C72AE552FAFBB8AEBCE2B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81CD733B7DA48A519B131B193847129D /* Pods-YCStateButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YCStateButton_Tests.modulemap"; sourceTree = "<group>"; };
+		8553DDBC207C9F9F98BCDDE711960600 /* Pods-YCStateButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YCStateButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BD2EC5BA0F3C541FB9EC293EC868533 /* YCStateButton-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YCStateButton-Private.xcconfig"; sourceTree = "<group>"; };
+		8EB4428553C01BF7C506767B45F1F7D6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F99BB0EFCB00D271AC0138DF189DEF2 /* Pods-YCStateButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YCStateButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A0C847E65CB5D26A265D4D834E525CDD /* Pods_YCStateButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCStateButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6E3F2114799CC70A624B3CC28C4EBFD /* Pods-YCStateButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCStateButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7424407023A5BE78D8885F67B09E1A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB5893825C8C5CB91ABBA574569BED5A /* Pods_YCStateButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YCStateButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2CC173951E8619DB9ED106E246C36BD /* YCStateButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCStateButton-prefix.pch"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD3FB108681FA08CBB2957F15F9955AC /* Pods-YCStateButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCStateButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5C268B67F0A3E76B0E7E9FE168B5F0A /* Pods-YCStateButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCStateButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D2075295FA191870D13722FB62E345FE /* Pods-YCStateButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YCStateButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		D216C4999A96BF25EAC04E54E5D85DDA /* Pods-YCStateButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YCStateButton_Example.modulemap"; sourceTree = "<group>"; };
+		D9DD7555A5148D3AA5FB50B4E106432E /* YCStateButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YCStateButton-umbrella.h"; sourceTree = "<group>"; };
+		DBBA2986EC8A4FD809A306FEA5B4F708 /* YCStateButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YCStateButton.xcconfig; sourceTree = "<group>"; };
+		E0F04207A8244C39EED27D74E9260C7F /* Pods-YCStateButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YCStateButton_Example-dummy.m"; sourceTree = "<group>"; };
+		EA554AA84321ABC75092539D9A06309F /* Pods-YCStateButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YCStateButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		FC548CD38EE72D0C74B58821E29EA6E3 /* Pods-YCStateButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YCStateButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073BEEF0050CAAE0F1BE2FDC122FFDEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEE4A535F095A3599CC1732A4DBD73BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B232DD83639CE283D6FBFDCF9043081 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B63BF349EB413DAFC0526E1B8AC90E7D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1FB9E2E325BA436634235AEC407B6D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0842EC8AA6B9B671F47145DE87B975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842E3F9C284ADB0EAD2D3AB0413E8BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		237E28D241A74AFB9CA6FEF55BF1E8B3 /* YCStateButton */ = {
+			isa = PBXGroup;
+			children = (
+				5483F0550958D8E0CEDD4042F0EFDD62 /* Pod */,
+				8B7F4DBADF66D2B6F3A05AB3CA43C986 /* Support Files */,
+			);
+			name = YCStateButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		364B25634D11AACF3B53151D0247BB24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C93753E4E9BE4CA8AC99866589FF1F /* Pods-YCStateButton_Example */,
+				E1DDB2CC76DA1D865CDC55728EB0EE82 /* Pods-YCStateButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				377132D3498BCF8A86665DAA7448251B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5483F0550958D8E0CEDD4042F0EFDD62 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CC31B0C804343D3FF3C47542FDD064D4 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		75D16DB7B6133B5C993FD30E6707A909 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				237E28D241A74AFB9CA6FEF55BF1E8B3 /* YCStateButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				75D16DB7B6133B5C993FD30E6707A909 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				364B25634D11AACF3B53151D0247BB24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8B7F4DBADF66D2B6F3A05AB3CA43C986 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7424407023A5BE78D8885F67B09E1A0 /* Info.plist */,
+				5C302F4FFF67B9D355171330010AE639 /* YCStateButton.modulemap */,
+				DBBA2986EC8A4FD809A306FEA5B4F708 /* YCStateButton.xcconfig */,
+				8BD2EC5BA0F3C541FB9EC293EC868533 /* YCStateButton-Private.xcconfig */,
+				1F6681E2F5BDA279A846AD97D8687DC5 /* YCStateButton-dummy.m */,
+				B2CC173951E8619DB9ED106E246C36BD /* YCStateButton-prefix.pch */,
+				D9DD7555A5148D3AA5FB50B4E106432E /* YCStateButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YCStateButton";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC31B0C804343D3FF3C47542FDD064D4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0E851B093B809B08B59928D64F308DE3 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0C847E65CB5D26A265D4D834E525CDD /* Pods_YCStateButton_Example.framework */,
+				AB5893825C8C5CB91ABBA574569BED5A /* Pods_YCStateButton_Tests.framework */,
+				175BAB17FD30D063193CFC200FF12EA9 /* YCStateButton.bundle */,
+				480A1C7ACAEA46A91368E79847C9AE24 /* YCStateButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C93753E4E9BE4CA8AC99866589FF1F /* Pods-YCStateButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C324A15E2C72AE552FAFBB8AEBCE2B9 /* Info.plist */,
+				D216C4999A96BF25EAC04E54E5D85DDA /* Pods-YCStateButton_Example.modulemap */,
+				04724D3E87FB4743657C42FD0B45F209 /* Pods-YCStateButton_Example-acknowledgements.markdown */,
+				393D831E8CBA2410545AB992D597055E /* Pods-YCStateButton_Example-acknowledgements.plist */,
+				E0F04207A8244C39EED27D74E9260C7F /* Pods-YCStateButton_Example-dummy.m */,
+				07C9D0F51A4CE835BE2E4200E27ABA1F /* Pods-YCStateButton_Example-frameworks.sh */,
+				18F9532408C9EFEF1F1B7C1C1A75302F /* Pods-YCStateButton_Example-resources.sh */,
+				EA554AA84321ABC75092539D9A06309F /* Pods-YCStateButton_Example-umbrella.h */,
+				BD3FB108681FA08CBB2957F15F9955AC /* Pods-YCStateButton_Example.debug.xcconfig */,
+				5D200F5B7525314830DB5FFCF53390E2 /* Pods-YCStateButton_Example.release.xcconfig */,
+			);
+			name = "Pods-YCStateButton_Example";
+			path = "Target Support Files/Pods-YCStateButton_Example";
+			sourceTree = "<group>";
+		};
+		E1DDB2CC76DA1D865CDC55728EB0EE82 /* Pods-YCStateButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8EB4428553C01BF7C506767B45F1F7D6 /* Info.plist */,
+				81CD733B7DA48A519B131B193847129D /* Pods-YCStateButton_Tests.modulemap */,
+				8553DDBC207C9F9F98BCDDE711960600 /* Pods-YCStateButton_Tests-acknowledgements.markdown */,
+				333613AF2DEDB18E04A2846D198537D9 /* Pods-YCStateButton_Tests-acknowledgements.plist */,
+				D2075295FA191870D13722FB62E345FE /* Pods-YCStateButton_Tests-dummy.m */,
+				C5C268B67F0A3E76B0E7E9FE168B5F0A /* Pods-YCStateButton_Tests-frameworks.sh */,
+				2B7220F3824981635D9D04A395BFE00F /* Pods-YCStateButton_Tests-resources.sh */,
+				9F99BB0EFCB00D271AC0138DF189DEF2 /* Pods-YCStateButton_Tests-umbrella.h */,
+				A6E3F2114799CC70A624B3CC28C4EBFD /* Pods-YCStateButton_Tests.debug.xcconfig */,
+				FC548CD38EE72D0C74B58821E29EA6E3 /* Pods-YCStateButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-YCStateButton_Tests";
+			path = "Target Support Files/Pods-YCStateButton_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C49F791DCC038AD9AA41E66B8F7CBA8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9303B080CE008F4892819DC9100FCFB /* Pods-YCStateButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		821D6917BB9D60EC561B8854209BB27F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D15368D52DE96512E8E62344BF73258 /* YCStateButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDED3755E19A057A6C8AF1F923BDE9A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8C8418F066A294FBDAE31F717366C7F /* Pods-YCStateButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21DDE64E9385B4F82C2B65ACD7534152 /* YCStateButton-YCStateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2088C1A675FD2A8B565BCEF277DF03 /* Build configuration list for PBXNativeTarget "YCStateButton-YCStateButton" */;
+			buildPhases = (
+				8E10B790AE86EB234B56F292F8E4AEBD /* Sources */,
+				E842E3F9C284ADB0EAD2D3AB0413E8BD /* Frameworks */,
+				7987FEC6E3740D44F437F5C3B43E3EEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YCStateButton-YCStateButton";
+			productName = "YCStateButton-YCStateButton";
+			productReference = 175BAB17FD30D063193CFC200FF12EA9 /* YCStateButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		3960A35A3D49B7DB96F192980ECB25EE /* YCStateButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E17282893BDAF6D1FDB04445A857543 /* Build configuration list for PBXNativeTarget "YCStateButton" */;
+			buildPhases = (
+				9B1FCC17AD56A08E4CC4366AD4A6EB58 /* Sources */,
+				E1FB9E2E325BA436634235AEC407B6D7 /* Frameworks */,
+				0AFB9D17430622C14302CB4B47149F21 /* Resources */,
+				821D6917BB9D60EC561B8854209BB27F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5245B9D558C3D733632A901B6B3B96CC /* PBXTargetDependency */,
+			);
+			name = YCStateButton;
+			productName = YCStateButton;
+			productReference = 480A1C7ACAEA46A91368E79847C9AE24 /* YCStateButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4EE22E94F6E78AE23CE32DD8F4C471DB /* Pods-YCStateButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 846673AC55AE2446F1F9D71F5F92407E /* Build configuration list for PBXNativeTarget "Pods-YCStateButton_Tests" */;
+			buildPhases = (
+				F3939F9B7F9F7BAF5B90E4D5CC74BB83 /* Sources */,
+				1B232DD83639CE283D6FBFDCF9043081 /* Frameworks */,
+				3C49F791DCC038AD9AA41E66B8F7CBA8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2D771BBD11EBDF91C4A63B3FEFA998B /* PBXTargetDependency */,
+			);
+			name = "Pods-YCStateButton_Tests";
+			productName = "Pods-YCStateButton_Tests";
+			productReference = AB5893825C8C5CB91ABBA574569BED5A /* Pods_YCStateButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9A8ED1CE232F9501825E5A6D703A552 /* Pods-YCStateButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F007C12DCC63D8B94F70E59B4950CAF9 /* Build configuration list for PBXNativeTarget "Pods-YCStateButton_Example" */;
+			buildPhases = (
+				4F59C1F46E37F2751D28BF882D4BEACD /* Sources */,
+				073BEEF0050CAAE0F1BE2FDC122FFDEC /* Frameworks */,
+				BDED3755E19A057A6C8AF1F923BDE9A9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				714D9E20FB80780FF6F129EF4B66759B /* PBXTargetDependency */,
+			);
+			name = "Pods-YCStateButton_Example";
+			productName = "Pods-YCStateButton_Example";
+			productReference = A0C847E65CB5D26A265D4D834E525CDD /* Pods_YCStateButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9A8ED1CE232F9501825E5A6D703A552 /* Pods-YCStateButton_Example */,
+				4EE22E94F6E78AE23CE32DD8F4C471DB /* Pods-YCStateButton_Tests */,
+				3960A35A3D49B7DB96F192980ECB25EE /* YCStateButton */,
+				21DDE64E9385B4F82C2B65ACD7534152 /* YCStateButton-YCStateButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AFB9D17430622C14302CB4B47149F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C750CB065AED687F6ED62996F8B558AB /* YCStateButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7987FEC6E3740D44F437F5C3B43E3EEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F59C1F46E37F2751D28BF882D4BEACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21DFD5CA2171F973C96F1F7C5EFDF427 /* Pods-YCStateButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E10B790AE86EB234B56F292F8E4AEBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1FCC17AD56A08E4CC4366AD4A6EB58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D3DDFB3DAE414635E2159A73A856E0D /* ReplaceMe.swift in Sources */,
+				830630CA31CE40CD85AEFF639CCCC693 /* YCStateButton-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3939F9B7F9F7BAF5B90E4D5CC74BB83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A3A798BE73A78E284C780BFF6AA7B6B /* Pods-YCStateButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5245B9D558C3D733632A901B6B3B96CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "YCStateButton-YCStateButton";
+			target = 21DDE64E9385B4F82C2B65ACD7534152 /* YCStateButton-YCStateButton */;
+			targetProxy = 758DAA80212AC3999D1BDF1C0407A1A5 /* PBXContainerItemProxy */;
+		};
+		714D9E20FB80780FF6F129EF4B66759B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YCStateButton;
+			target = 3960A35A3D49B7DB96F192980ECB25EE /* YCStateButton */;
+			targetProxy = D59630D201F537789DEFF5757CE981DA /* PBXContainerItemProxy */;
+		};
+		A2D771BBD11EBDF91C4A63B3FEFA998B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YCStateButton;
+			target = 3960A35A3D49B7DB96F192980ECB25EE /* YCStateButton */;
+			targetProxy = F10FEAA561D354A42B1D548E53D3E2D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FCB6FEDDABF03903D5CF59744E3A401 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD2EC5BA0F3C541FB9EC293EC868533 /* YCStateButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YCStateButton/YCStateButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YCStateButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YCStateButton/YCStateButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = YCStateButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25C277C6ACC59CF3B05ED334F8E0BC3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6E3F2114799CC70A624B3CC28C4EBFD /* Pods-YCStateButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YCStateButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YCStateButton_Tests/Pods-YCStateButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YCStateButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B5B257DEEEFFACEFD340EACE7ACAD43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC548CD38EE72D0C74B58821E29EA6E3 /* Pods-YCStateButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YCStateButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YCStateButton_Tests/Pods-YCStateButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YCStateButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		532E3B8C614CB452D4B7503D49078D4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD2EC5BA0F3C541FB9EC293EC868533 /* YCStateButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YCStateButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		56416BEAD2046EBAC2EC33F239CAD133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD3FB108681FA08CBB2957F15F9955AC /* Pods-YCStateButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YCStateButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YCStateButton_Example/Pods-YCStateButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YCStateButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58FA142621D3CF04B2133C7EE3377FC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D200F5B7525314830DB5FFCF53390E2 /* Pods-YCStateButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-YCStateButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-YCStateButton_Example/Pods-YCStateButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_YCStateButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9FB1CD00B70071719C914442C63F5CA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD2EC5BA0F3C541FB9EC293EC868533 /* YCStateButton-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YCStateButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BD9A35782BE3AB22885F298B10D23AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD2EC5BA0F3C541FB9EC293EC868533 /* YCStateButton-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YCStateButton/YCStateButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YCStateButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YCStateButton/YCStateButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = YCStateButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E17282893BDAF6D1FDB04445A857543 /* Build configuration list for PBXNativeTarget "YCStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD9A35782BE3AB22885F298B10D23AF5 /* Debug */,
+				0FCB6FEDDABF03903D5CF59744E3A401 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		846673AC55AE2446F1F9D71F5F92407E /* Build configuration list for PBXNativeTarget "Pods-YCStateButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25C277C6ACC59CF3B05ED334F8E0BC3D /* Debug */,
+				2B5B257DEEEFFACEFD340EACE7ACAD43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2088C1A675FD2A8B565BCEF277DF03 /* Build configuration list for PBXNativeTarget "YCStateButton-YCStateButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB1CD00B70071719C914442C63F5CA0 /* Debug */,
+				532E3B8C614CB452D4B7503D49078D4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F007C12DCC63D8B94F70E59B4950CAF9 /* Build configuration list for PBXNativeTarget "Pods-YCStateButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56416BEAD2046EBAC2EC33F239CAD133 /* Debug */,
+				58FA142621D3CF04B2133C7EE3377FC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

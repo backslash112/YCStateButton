@@ -1,0 +1,6 @@
+framework module Pods_YCStateButton_Tests {
+  umbrella header "Pods-YCStateButton_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

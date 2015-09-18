@@ -1,0 +1,14 @@
+PODS:
+  - YCStateButton (0.1.0)
+
+DEPENDENCIES:
+  - YCStateButton (from `../`)
+
+EXTERNAL SOURCES:
+  YCStateButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YCStateButton: b5bb05b6246a8818b3eee2c589fd7feacb885f43
+
+COCOAPODS: 0.38.2
