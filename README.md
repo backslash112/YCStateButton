@@ -20,6 +20,25 @@ it, simply add the following line to your Podfile:
 pod "YCStateButton"
 ```
 
+## Usage
+(see sample Xcode project in /Example)
+
+1. Add two images to the Images.xcassets file and slicing them horizontally.
+
+<img src="https://cloud.githubusercontent.com/assets/5343215/9952859/3d14f53e-5e0d-11e5-8f20-c6c91255b81d.png" alt="Screenshot" width=300 />
+
+2. Use it.
+```Swift
+let stateButton = YCStateButton(frame: CGRectMake(30, 30, 0, 0))
+stateButton.selectedStateBackgroundImage = UIImage(named: "tag_selected_bg")!
+stateButton.unSelectedStateBackgroundImage = UIImage(named: "tag_unselected_bg")!
+stateButton.selectedStatusTitleColor = UIColor.greenColor()
+stateButton.unselectedStatusTitleColor = UIColor.grayColor()
+stateButton.fontSize = 15
+stateButton.setTitle("Superman", forState: UIControlState.Normal)
+self.view.addSubview(stateButton)
+```
+
 ## Author
 
 Yang Cun, yangcun@live.com
