@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/YCStateButton.svg?style=flat)](http://cocoapods.org/pods/YCStateButton)
 [![Platform](https://img.shields.io/cocoapods/p/YCStateButton.svg?style=flat)](http://cocoapods.org/pods/YCStateButton)
 
-A custom button control for iOS.</br>
+A custom control for iOS.</br>
 With this control, you can make a selectable view with auto-width easily.
 
 <img src="https://cloud.githubusercontent.com/assets/5343215/9953043/a2ef1dba-5e0f-11e5-9908-66c7f1fac779.png" alt="Screenshot" width=280 />
