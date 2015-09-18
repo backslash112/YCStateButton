@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D15368D52DE96512E8E62344BF73258 /* YCStateButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DD7555A5148D3AA5FB50B4E106432E /* YCStateButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D3DDFB3DAE414635E2159A73A856E0D /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E851B093B809B08B59928D64F308DE3 /* ReplaceMe.swift */; };
+		0D3DDFB3DAE414635E2159A73A856E0D /* YCStateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E851B093B809B08B59928D64F308DE3 /* YCStateButton.swift */; };
 		21DFD5CA2171F973C96F1F7C5EFDF427 /* Pods-YCStateButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F04207A8244C39EED27D74E9260C7F /* Pods-YCStateButton_Example-dummy.m */; };
 		7A3A798BE73A78E284C780BFF6AA7B6B /* Pods-YCStateButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2075295FA191870D13722FB62E345FE /* Pods-YCStateButton_Tests-dummy.m */; };
 		830630CA31CE40CD85AEFF639CCCC693 /* YCStateButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6681E2F5BDA279A846AD97D8687DC5 /* YCStateButton-dummy.m */; };
@@ -47,7 +47,7 @@
 /* Begin PBXFileReference section */
 		04724D3E87FB4743657C42FD0B45F209 /* Pods-YCStateButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YCStateButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		07C9D0F51A4CE835BE2E4200E27ABA1F /* Pods-YCStateButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCStateButton_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0E851B093B809B08B59928D64F308DE3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		0E851B093B809B08B59928D64F308DE3 /* YCStateButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = YCStateButton.swift; sourceTree = "<group>"; };
 		175BAB17FD30D063193CFC200FF12EA9 /* YCStateButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCStateButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F9532408C9EFEF1F1B7C1C1A75302F /* Pods-YCStateButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YCStateButton_Example-resources.sh"; sourceTree = "<group>"; };
 		1F6681E2F5BDA279A846AD97D8687DC5 /* YCStateButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YCStateButton-dummy.m"; sourceTree = "<group>"; };
@@ -196,7 +196,7 @@
 		CC31B0C804343D3FF3C47542FDD064D4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0E851B093B809B08B59928D64F308DE3 /* ReplaceMe.swift */,
+				0E851B093B809B08B59928D64F308DE3 /* YCStateButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -417,7 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3DDFB3DAE414635E2159A73A856E0D /* ReplaceMe.swift in Sources */,
+				0D3DDFB3DAE414635E2159A73A856E0D /* YCStateButton.swift in Sources */,
 				830630CA31CE40CD85AEFF639CCCC693 /* YCStateButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
